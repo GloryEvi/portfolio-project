@@ -19,6 +19,7 @@ h6 {
 }
 h1 {
   font-size: 86px;
+  line-height: 1.5;
 }
 h2 {
   font-size: 60px;
@@ -35,7 +36,7 @@ p {
 .hero {
   background: var(--secondary-color);
   text-align: center;
-  padding: 120px 20px;
+  padding: 85px 20px;
 }
 .hero p {
   font-size: 36px;
@@ -79,6 +80,9 @@ p {
   line-height: 27px;
   padding: 15px 30px;
 }
+.btn-branding:hover {
+  background: var(--primary-color);
+}
 .btn-branding2 {
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
@@ -86,6 +90,9 @@ p {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+}
+.btn-branding2:hover {
+  border: 1px solid var(--primary-color);
 }
 .project-description {
   padding: 80px 40px;
@@ -112,7 +119,6 @@ footer .email-link {
   text-decoration: none;
   font-size: 24px;
   color: black;
-  text-align: center;
 }
 footer .email-link:hover {
   color: var(--primary-color);
@@ -124,6 +130,11 @@ footer .social-links a {
   padding: 10px 14px;
   font-size: 18px;
   border-radius: 50%;
+  transition: all 1ooms ease-in-out;
+}
+footer .social-links a:hover {
+  color: white;
+  background: var(--primary-color);
 }
 @media (max-width: 900px) {
   h1 {
@@ -146,5 +157,9 @@ footer .social-links a {
   .project-description {
     padding: 0;
     text-align: center;
+  }
+  .evi {
+    display: flex;
+    justify-content: center;
   }
 }
