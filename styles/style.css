@@ -175,4 +175,9 @@ footer .social-links a:hover {
     display: flex;
     justify-content: center;
   }
+  .live-demo,
+  .view-source {
+    padding: 10px 8px;
+    font-size: 14px;
+  }
 }
